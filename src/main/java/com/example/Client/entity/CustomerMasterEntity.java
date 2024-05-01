@@ -24,7 +24,6 @@ public class CustomerMasterEntity {
     String name;
     String surname;
     String email;
-
     @CreationTimestamp
     LocalDateTime createdAt;
 
